@@ -1,5 +1,5 @@
 # UrbanRiverbankDefomation
-Open Data for Paper submitted to GIScience & Remote Sensing:
+Open Data for Paper submitted to International Journal of Applied Earth Observation and Geoinformation:
 
 Title: Decadal InSAR-based Deformation Analysis of Soft Ground in an Urban Riverbank: Case Study of Nanjing, China
 
