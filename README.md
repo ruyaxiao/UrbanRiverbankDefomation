@@ -1,8 +1,8 @@
 # UrbanRiverbankDefomation
 Open Data for Paper submitted to International Journal of Applied Earth Observation and Geoinformation:
 
-Title: Decadal InSAR-based Deformation Analysis of Soft Ground in an Urban Riverbank: Case Study of Nanjing, China
+Title: Decadal Earth Observation-informed Analysis of Urban Riverbank Deformation: InSAR Insights into Soft Ground Dynamics in Nanjing, China
 
-Authors: Ruya XIAO, Xun Wang, Mi Jiang, Shanshui Yuan, Ziyang Li, Vagner Ferreira, Xiufeng He*
+Authors: Ruya XIAO*, Xun WANG, Mi JIANG, Shanshui YUAN, Ziyang LI, Zhou WU, Vagner FERREIRA, Xiufeng HE*
 
 Contact: ruya.xiao@hhu.edu.cn    xfhe@hhu.edu.cn
