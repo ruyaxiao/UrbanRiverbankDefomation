@@ -14,7 +14,7 @@ This project provides Bash and MATLAB scripts to:
 -   **Bash**: A Unix shell (*e.g.*, comes pre-installed on Linux/macOS. For Windows, use [WSL](https://docs.microsoft.com/en-us/windows/wsl/install) or [Git Bash](https://gitforwindows.org/)).
 -   **MATLAB**: Version R2019b or higher.
 -   **GAMMA Software**: [GAMMA](https://gamma-rs.ch/gamma-software) software suite (versions released after 2023 are recommended) for InSAR data preprocessing.
--   **SNAPHU**: Statistical-Cost, Network-Flow Algorithm for Phase Unwrapping(https://web.stanford.edu/group/radar/softwareandlinks/sw/snaphu/) developed by Stanford Radar Interferometry Research Group.
+-   **SNAPHU**: Statistical-Cost, Network-Flow Algorithm for Phase Unwrapping [SNAPHU](https://web.stanford.edu/group/radar/softwareandlinks/sw/snaphu/) developed by Stanford Radar Interferometry Research Group.
 
 ### Dependencies
 The MATLAB code relies on no third-party custom functions beyond the specified Toolboxes. The Bash script uses standard GNU tools and requires a functioning GAMMA installation to execute commands (*e.g.*, `swap_bytes`, `mcf`, `create_offset`).
@@ -32,4 +32,5 @@ The `/datesets_insar_timeseries/` directory contains InSAR results and temperatu
 | **`wavelet_analysis.m`** | MATLAB Script | Main script to perform wavelet analysis on prepared time-series data. | Modify `InSAR_input` and `Temp_input` variables at the beginning of the script. | `./wavelet_analysis.m` |
 | **`Mann_Kendall.m`** | MATLAB Function | Computes Mann-Kendall trend test statistics | -- |`[H P_value Z]=Mann_Kendall(data,alpha)` |
 | **`cal_Amp.m`** | MATLAB Script | calculate the amplitude and phase | Modify `InSAR_input` variables at the beginning of the script. | `./cal_Amp.m` |
+
 
