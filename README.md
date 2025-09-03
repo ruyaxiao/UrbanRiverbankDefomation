@@ -40,11 +40,11 @@ The provided example data files include both time-series for specific monitoring
 
 | Data File | Description | Manuscript Reference |
 | :--- | :--- | :--- |
-| `JB01` - `JB05` | Typical InSAR monitoring points in **Jiangbei New Area (JBA)**. | **Fig. 8** |
-| `HX01` - `HX05` | Typical InSAR monitoring points in **Hexi New Town (HXT)**. | **Fig. 10** |
-| `HRLB`,&nbsp;`HRRB`,&nbsp;`HR01`&nbsp;-&nbsp;`HR05` | Typical InSAR monitoring points in **High-Speed Railway (HR) Nanjing Yangtze River Bridge**. | **Fig. 11 & Fig. 13** |
-| `DSLB`,&nbsp;`DSRB`,&nbsp;`DS01`&nbsp;-&nbsp;`DS03` | Typical InSAR monitoring points in **Dashengguan (DS) Bridge**. | **Fig. 11** |
-| `Temperature.csv`| Temperature data of **HR bridge** for wavelet analysis. | **Fig. 13** |
+| `JB01` - `JB05` | InSAR monitoring results on typical points in **Jiangbei New Area (JBA)**. | **Fig. 8** |
+| `HX01` - `HX05` | InSAR monitoring results on typical points in **Hexi New Town (HXT)**. | **Fig. 10** |
+| `HRLB`,&nbsp;`HRRB`,&nbsp;`HR01`&nbsp;-&nbsp;`HR05` | InSAR monitoring results on typical points in **High-Speed Railway (HR) Nanjing Yangtze River Bridge**. LB: left bank, RB: right bank.| **Fig. 11 & Fig. 13** |
+| `DSLB`,&nbsp;`DSRB`,&nbsp;`DS01`&nbsp;-&nbsp;`DS03` | InSAR monitoring results on typical points in **Dashengguan (DS) Bridge**. | **Fig. 11** |
+| `Temperature.csv`| Daily temperature data of **HR bridge** for wavelet analysis. | **Fig. 13** |
 | `baselines_info.txt`| Baseline information of InSAR interferograms. | **Fig. 1** |
 
 **Note:** The precise locations of all these typical InSAR monitoring points are explained in detail within the manuscript.
@@ -65,3 +65,4 @@ The Temperature data are also provided in CSV format, structured as follows:
 | Temp_date1 (°C) | Temp_date2 (°C) | ... | Temp_dateN (°C) |
 | :----------- | :----------- | :-- | :---------- |
 | 12.5          | 17.9         | ... | -2.3       |
+
