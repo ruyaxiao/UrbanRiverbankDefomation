@@ -15,6 +15,8 @@ This project provides Bash and MATLAB scripts to:
 -   **MATLAB**: Version R2019b or higher.
 -   **GAMMA Software**: [GAMMA](https://gamma-rs.ch/gamma-software) software suite (versions released after 2023 are recommended) for InSAR data preprocessing.
 -   **SNAPHU**: Statistical-Cost, Network-Flow Algorithm for Phase Unwrapping [SNAPHU](https://web.stanford.edu/group/radar/softwareandlinks/sw/snaphu/) developed by Stanford Radar Interferometry Research Group.
+-   **LiCSBAS**: InSAR time series analysis tool using LiCSAR products [LiCSBAS](https://github.com/comet-licsar/LiCSBAS), originally developed by Dr. Yu Morishita and now updated by the COMET LiCSAR team.
+-   **StaMPS/MTI**: Stanford Method for Persistent Scatterers / Multi-Temporal InSAR [StaMPS/MTI](https://homepages.see.leeds.ac.uk/~earahoo/stamps/), originally developed at Stanford University, but subsequent development has taken place at the University of Iceland, Delft University of Technology and the University of Leeds.
 
 ### Dependencies
 
@@ -65,4 +67,5 @@ The Temperature data are also provided in CSV format, structured as follows:
 | Temp_date1 (°C) | Temp_date2 (°C) | ... | Temp_dateN (°C) |
 | :----------- | :----------- | :-- | :---------- |
 | 12.5          | 17.9         | ... | -2.3       |
+
 
