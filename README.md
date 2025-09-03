@@ -29,8 +29,9 @@ The `/datesets_insar_timeseries/` directory contains InSAR results and temperatu
 | :--- | :--- | :--- | :--- | :--- |
 | **`optimize_unwrapping.sh`** | Bash Script | Optimizes InSAR phase unwrapping errors | Set `INPUT_DIR`, `OUTPUT_DIR` paths at the top of the script. | `./optimize_unwrapping.sh data_list.txt` |
 | **`snaphu_parallel.sh`** | Bash Function | parallel for optimization | -- | `./snaphu_parallel.sh $top_dir $date $width $coherence_thre` |
-| **`wavelet_analysis.m`** | MATLAB Script | Main script to perform wavelet analysis on prepared time-series data. | Modify `InSAR_input` and `Temp_input` variables at the beginning of the script. | `./wavelet_analysis.m` |
+| **`wavelet_analysis.m`** | MATLAB Script | Main script to perform wavelet analysis on prepared time-series data. | Modify `InSAR_input` and `Temp_input` variables at the beginning of the script. | `>>wavelet_analysis.m` |
 | **`Mann_Kendall.m`** | MATLAB Function | Computes Mann-Kendall trend test statistics | -- |`[H P_value Z]=Mann_Kendall(data,alpha)` |
-| **`cal_Amp.m`** | MATLAB Script | calculate the amplitude and phase | Modify `InSAR_input` variables at the beginning of the script. | `./cal_Amp.m` |
+| **`cal_Amp.m`** | MATLAB Script | calculate the amplitude and phase | Modify `InSAR_input` variables at the beginning of the script. | `>>cal_Amp.m` |
+
 
 
